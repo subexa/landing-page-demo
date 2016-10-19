@@ -1,0 +1,76 @@
+.secondPage {
+	color: white;
+	display: flex;
+}
+.slushStatistics {
+	margin-left: 250px;
+	background-image: url("background/22343908214-4-bbe-4-d-7391-c-copy.png");
+	width: 490px;
+	height: 603px;
+}
+.insideStatistics {
+	padding-left: 40px;
+	padding-top: 68px;
+}
+#heading {
+	font-size: 48px;
+	letter-spacing: -0.7px;
+}
+hr#longLine {
+    width: 134px;
+    border: solid 1px #ff291c;
+    margin-left: 0px;
+}
+.numbers {
+	font-size: 64px;
+	margin-bottom: 7px;
+	height: 64px;
+}
+.text {
+	font-size: 24px;
+	margin-left: 15px;
+}
+.whatIsSlush {
+	margin-left: 50px;
+	color: black;
+	font-size: 27px;
+	width: 146px;
+	height: 74px;
+}
+#slushIntro {
+	padding-top: 28px;
+	color: black;
+	width: 400px;
+	font-size: 16px;
+	padding-right: 250px;
+}
+.blackContainer {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	color: #ffffff;
+	height: 582px;
+}
+.globalImpactHeading {
+	padding-top: 57px;
+	padding-bottom: 38px;
+	font-size: 27px;
+}
+.globalImpactDescription {
+	font-size: 16px;
+	line-height: 1.38;
+	width: 380px;
+}
+.whySlush {
+	padding-left: 123px;
+}
+.whySlushHeading {
+	padding-top: 57px;
+	font-size: 27px;
+	padding-bottom: 35px;
+}
+.whySlushDescription {
+	font-size: 16px;
+	width: 400px;
+	line-height: 1.38;
+}

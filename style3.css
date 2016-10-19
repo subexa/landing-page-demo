@@ -1,0 +1,226 @@
+.firstRow {
+	display: flex;
+}
+.lookingFor {
+	padding-top: 41px;
+	padding-left: 48px;
+}
+.lookingForHeading {
+	font-size: 27px;
+	margin-bottom: 27px;
+	width: 214px;
+	line-height: 1.48;
+}
+.lookingForDescription {
+	font-size: 16px;
+	width: 400px;
+	height: 154px;
+	line-height: 1.38;
+	padding-left: 5px;
+}
+ul {
+	padding-left: 1em;
+}
+#transportation {
+	list-style: none;
+}
+.secondRow {
+	display: flex;
+	margin-top: 50px;
+}
+.whyParticipate {
+	margin-left: 250px;
+	margin-right: 130px;
+}
+#whyParticipateHeading {
+	padding-bottom: 28px;
+	font-size: 27px;
+}
+#whyParticipateDescription {
+	font-size: 16px;
+	width: 400px;
+	height: 506px;
+}
+.participantReceive {
+}
+.participantReceiveHeading {
+	font-size: 27px;
+	margin-bottom: 31px;
+}
+.participantReceiveDescription {
+	font-size: 16px;
+	width: 417px;
+	line-height: 22px;
+	margin-bottom: 50px;
+}
+ul.dashed {
+	list-style-type: none;
+	list-style-position: outside;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+li.accessTo:before {
+	content: "- ";
+}
+.secondBlackContainer {
+	width: 1440px;
+	height: 623px;
+	background-color: black;
+	color: white;
+	margin-bottom: 50px;
+}
+.secondBlackFirstRow {
+	padding-top: 50px;
+	padding-left: 249px;
+	padding-right: 613px;
+	padding-bottom: 29px;
+	font-size: 27px;
+	line-height: 1.22;
+}
+.secondBlackSecondRow {
+	display: flex;
+	padding-left: 249px;
+	font-size: 16px;
+	line-height: 1.25;
+}
+.product {
+	width: 300px;
+	padding-bottom: 96px;
+}
+.market {
+	width: 300px;
+	padding-left: 20px;
+}
+.gain {
+	width: 300px;
+	padding-left: 20px;
+}
+.secondBlackThirdRow {
+	line-height: 1.25;
+	padding-left: 249px;
+	display: flex;
+	font-size: 16px;
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+.competence {
+	width: 300px;
+}
+.investment {
+	width: 300px;
+	padding-left: 20px;
+}
+.impact {
+	width: 300px;
+	padding-left: 20px;
+}
+.fiveBoxes {
+	display: flex;
+	padding-left: 250px;
+	margin-bottom: 52.6px;
+}
+.box {
+	margin-right: 13px;
+	width: 177px;
+	height: 273.4px;
+	background-color: black;
+	color: #9b9b9b;
+	font-size: 20px;
+}
+.month {
+	padding-top: 37px;
+	padding-left: 26px;
+}
+.year {
+	padding-left: 26px;
+	font-size: 48px;
+}
+hr#shortLine {
+	margin-left: 26px;
+    width: 76px;
+    border: solid 1px #ff291c;
+    margin-bottom: 30px;	
+}
+#preparation {
+	width: 122px;
+	padding-left: 26px;
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+}
+#call {
+	padding-left: 26px;
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+}
+#selection {
+	padding-left: 26px;
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+}
+#pitching {
+	padding-left: 26px;
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+}
+#support {
+	padding-left: 26px;
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+}
+#lastPage {
+	background-image: url("background/lastPageImage.png");
+	width: 1440px;
+	height: 278px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#lastPageSlushImage {
+	padding-left: 250px;
+	padding-top: 57px;
+	padding-right: 27px;
+}
+#lastPageFirstRow {
+	display: flex;
+}
+#lastPageText {
+	color: #9b9b9b;
+	padding-top: 57px;
+	font-size: 14px;
+}
+.lastPageSecondRow {
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-around;
+}
+.navigationLastPage {
+	display: flex;
+	font-size: 16px;
+	color: #ffffff;
+	-webkit-text-stroke: 1px #979797;
+}
+.endingSlushNepal {
+	font-size: 24px;
+}
+.endingNote {
+
+}
+#endingText {
+	font-size: 16px;
+	color: #ffffff;
+	-webkit-text-stroke: 1px #979797;
+}
+.socialMedia {
+	margin-right: 413px;
+	margin-top: 11.8px;
+	float: right;
+}
+#footer {
+	font-size: 16px;
+	color: #9b9b9b;
+  	width: 1440px;
+  	height: 80px;
+  	background-color: #4a4a4a;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
