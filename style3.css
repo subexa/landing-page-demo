@@ -116,7 +116,7 @@ li.accessTo:before {
 }
 .fiveBoxes {
 	display: flex;
-	padding-left: 250px;
+	justify-content: center;
 	margin-bottom: 52.6px;
 }
 .box {
@@ -135,7 +135,7 @@ li.accessTo:before {
 	padding-left: 26px;
 	font-size: 48px;
 }
-hr#shortLine {
+hr.shortLine {
 	margin-left: 26px;
     width: 76px;
     border: solid 1px #ff291c;
@@ -173,24 +173,35 @@ hr#shortLine {
 	height: 278px;
 	background-repeat: no-repeat;
 	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.lastBoth {
+	width: 80%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 #lastPageSlushImage {
-	padding-left: 250px;
-	padding-top: 57px;
-	padding-right: 27px;
+	width: 13%;
 }
 #lastPageFirstRow {
 	display: flex;
 }
 #lastPageText {
 	color: #9b9b9b;
-	padding-top: 57px;
 	font-size: 14px;
+	width: 554px;
 }
 .lastPageSecondRow {
-	margin-top: 60px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+}
+a#LastPageAbout {
+	margin-left: 210px;
 }
 .navigationLastPage {
 	display: flex;
@@ -202,7 +213,6 @@ hr#shortLine {
 	font-size: 24px;
 }
 .endingNote {
-
 }
 #endingText {
 	font-size: 16px;
@@ -210,9 +220,10 @@ hr#shortLine {
 	-webkit-text-stroke: 1px #979797;
 }
 .socialMedia {
-	margin-right: 413px;
-	margin-top: 11.8px;
-	float: right;
+	width: 138px;
+	float: left;
+	display: flex;
+	justify-content: space-between;
 }
 #footer {
 	font-size: 16px;
