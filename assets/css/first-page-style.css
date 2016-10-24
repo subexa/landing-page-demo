@@ -5,7 +5,7 @@ body {
 }
 .firstPage {
     font-family: 'Fjalla One', sans-serif;
-	background-image: url("assets/img/firstPageOptimizedImage.jpg") ;
+	background-image: url("../img/firstPageOptimizedImage.jpg") ;
 	background-size: contain;
 	background-repeat: no-repeat;
 	color: white;

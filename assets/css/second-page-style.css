@@ -4,7 +4,7 @@
 }
 .slushStatistics {
 	margin-left: 250px;
-	background-image: url("assets/img/slushStatisticsOptimizedImage.jpg") ;
+	background-image: url("../img/slushStatisticsOptimizedImage.jpg") ;
 	width: 490px;
 	height: 603px;
 	background-size: contain;
