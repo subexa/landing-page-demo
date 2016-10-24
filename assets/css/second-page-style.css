@@ -1,9 +1,9 @@
 .secondPage {
 	color: white;
 	display: flex;
+	justify-content: center;
 }
 .slushStatistics {
-	margin-left: 250px;
 	background-image: url("../img/slushStatisticsOptimizedImage.jpg") ;
 	width: 490px;
 	height: 603px;
@@ -36,14 +36,12 @@ hr#longLine {
 	margin-left: 50px;
 	color: black;
 	font-size: 27px;
-	width: 146px;
 	height: 74px;
 }
 #slushIntro {
 	color: black;
 	width: 400px;
 	font-size: 16px;
-	padding-right: 250px;
 }
 .blackContainer {
 	display: flex;
@@ -71,9 +69,4 @@ hr#longLine {
 .whySlushHeading {
 	padding-top: 57px;
 	font-size: 27px;
-}
-.whySlushDescription {
-	font-size: 16px;
-	width: 400px;
-	line-height: 1.38;
 }
