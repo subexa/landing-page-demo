@@ -4,9 +4,11 @@
 }
 .slushStatistics {
 	margin-left: 250px;
-	background-image: url("background/22343908214-4-bbe-4-d-7391-c-copy.png");
+	background-image: url("background/slushStatisticsOptimizedImage.jpg");
 	width: 490px;
 	height: 603px;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .insideStatistics {
 	padding-left: 40px;

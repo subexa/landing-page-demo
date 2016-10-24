@@ -169,7 +169,7 @@ hr.shortLine {
 	font-family: 'Fjalla One', sans-serif;
 }
 #lastPage {
-	background-image: url("background/lastPageImage.png");
+	background-image: url("background/lastPageOptimizedImage.jpg");
 	width: 1440px;
 	height: 278px;
 	background-repeat: no-repeat;
