@@ -38,7 +38,6 @@ hr#longLine {
 	height: 74px;
 }
 #slushIntro {
-	padding-top: 28px;
 	color: black;
 	width: 400px;
 	font-size: 16px;
@@ -51,12 +50,15 @@ hr#longLine {
 	color: #ffffff;
 	height: 582px;
 }
+.globalImpact {
+	display: flex;
+	flex-direction: column;
+}
 .globalImpactHeading {
 	padding-top: 57px;
-	padding-bottom: 38px;
 	font-size: 27px;
 }
-.globalImpactDescription {
+.description {
 	font-size: 16px;
 	line-height: 1.38;
 	width: 380px;
@@ -67,7 +69,6 @@ hr#longLine {
 .whySlushHeading {
 	padding-top: 57px;
 	font-size: 27px;
-	padding-bottom: 35px;
 }
 .whySlushDescription {
 	font-size: 16px;

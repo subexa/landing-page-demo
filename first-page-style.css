@@ -11,6 +11,9 @@ body {
 	color: white;
 	height: 584px;
 	width: 1440px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 .title {
 	display: flex;
@@ -29,20 +32,28 @@ body {
 a {
 	padding-left: 40px;
 }
+.firstPageMiddle {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
 .slushNepal {
-	margin-top: 103px;
 	letter-spacing: -10px;
 	display: flex;
 	justify-content: center;
-	font-size: 120px;
+	font-size: 110px;
 }
 .slushDescription {
+	width: 487px;
+	margin: auto;
 	text-align: center;
-	font-size: 24px;
+	font-size: 20px;
+}
+.firstPageBottom {
+	margin-bottom: 57.1px;
 }
 .callForParticipation {
 	text-align: center;
-	margin-top: 73px;
 	line-height: 1.11;
 	font-size: 18px;
 	color: #ffffff;
