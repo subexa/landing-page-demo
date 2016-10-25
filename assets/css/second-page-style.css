@@ -47,6 +47,7 @@ hr#longLine {
 	display: flex;
 	justify-content: center;
 	background-color: black;
+	align-items: center;
 	color: #ffffff;
 	height: 582px;
 }
@@ -55,7 +56,6 @@ hr#longLine {
 	flex-direction: column;
 }
 .globalImpactHeading {
-	padding-top: 57px;
 	font-size: 27px;
 }
 .description {

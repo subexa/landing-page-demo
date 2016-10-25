@@ -19,14 +19,17 @@ ul {
 }
 .secondRow {
 	display: flex;
+	justify-content: center;
 	margin-top: 50px;
 }
-.whyParticipate {
-	margin-left: 250px;
-	margin-right: 130px;
+.big-tile {
+	width: 300px;
 }
 #whyParticipateHeading {
 	font-size: 27px;
+}
+.participantReceive {
+	margin-left: 130px;
 }
 .participantReceiveHeading {
 	font-size: 27px;
@@ -41,8 +44,6 @@ li.accessTo:before {
 	content: "- ";
 }
 .secondBlackContainer {
-	width: 1440px;
-	height: 623px;
 	background-color: black;
 	color: white;
 	margin-bottom: 50px;
@@ -53,38 +54,17 @@ li.accessTo:before {
 	font-size: 24px;
 }
 .secondBlackFirstRow {
-	padding-top: 50px;
-	padding-left: 249px;
-	padding-right: 613px;
-	padding-bottom: 29px;
 	font-size: 27px;
 	line-height: 1.22;
 }
-.secondBlackSecondRow {
+.secondBlackRow {
 	display: flex;
-	padding-left: 249px;
+	justify-content: space-between;
 	font-size: 16px;
 	line-height: 1.25;
 }
-.product {
+.criteriaTile {
 	width: 300px;
-	padding-bottom: 96px;
-}
-.market {
-	width: 300px;
-	padding-left: 20px;
-}
-.gain {
-	width: 300px;
-	padding-left: 20px;
-}
-.secondBlackThirdRow {
-	line-height: 1.25;
-	padding-left: 249px;
-	display: flex;
-	font-size: 16px;
-	padding-bottom: 50px;
-	padding-top: 30px;
 }
 .competence {
 	width: 300px;
@@ -152,10 +132,10 @@ hr.shortLine {
 }
 #lastPage {
 	background-image: url("../img/lastPageOptimizedImage.jpg");
-	width: 1440px;
 	height: 278px;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
+	background-position: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -209,7 +189,6 @@ a#LastPageAbout {
 #footer {
 	font-size: 16px;
 	color: #9b9b9b;
-  	width: 1440px;
   	height: 80px;
   	background-color: #4a4a4a;
   	display: flex;
