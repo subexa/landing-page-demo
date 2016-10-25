@@ -9,14 +9,17 @@
 	height: 603px;
 	background-size: contain;
 	background-repeat: no-repeat;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .insideStatistics {
 	padding-left: 40px;
 	padding-top: 68px;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 #heading {
 	font-size: 48px;
 	letter-spacing: -0.7px;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 hr#longLine {
     width: 134px;
@@ -27,10 +30,15 @@ hr#longLine {
 	font-size: 64px;
 	margin-bottom: 7px;
 	height: 64px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: 100;
 }
 .text {
 	font-size: 24px;
 	margin-left: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: normal;
 }
 .whatIsSlush {
 	margin-left: 50px;
@@ -41,6 +49,9 @@ hr#longLine {
 	color: black;
 	width: 400px;
 	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	line-height: 22px;
 }
 .blackContainer {
 	display: flex;
@@ -48,6 +59,7 @@ hr#longLine {
 	background-color: black;
 	align-items: center;
 	color: #ffffff;
+	padding-bottom: 50px;
 }
 .globalImpact {
 	display: flex;
@@ -57,9 +69,11 @@ hr#longLine {
 	font-size: 27px;
 }
 .description {
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1.38;
 	width: 380px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
 }
 .whySlush {
 	padding-left: 65px;

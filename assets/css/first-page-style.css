@@ -1,5 +1,7 @@
 body {
 	margin: auto;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
 }
 .padding-horizontal-big {
 	padding-left: 10vw;
