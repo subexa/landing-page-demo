@@ -1,9 +1,14 @@
 .firstRow {
 	display: flex;
+	justify-content: center;
 }
 .lookingFor {
-	padding-top: 41px;
-	padding-left: 48px;
+	width: 37vw;
+	flex-grow: 1;
+}
+.containerLookingFor {
+	margin-top: 41px;
+	margin-left: 60px;
 }
 .lookingForHeading {
 	font-size: 27px;
@@ -194,4 +199,11 @@ a#LastPageAbout {
   	display: flex;
   	justify-content: center;
   	align-items: center;
+}
+.thirdPageImage {
+	background-image: url("../img/thirdPageOptimizedImage.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 37vw;
+	flex-grow: 1;
 }

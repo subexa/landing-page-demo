@@ -36,7 +36,6 @@ hr#longLine {
 	margin-left: 50px;
 	color: black;
 	font-size: 27px;
-	height: 74px;
 }
 #slushIntro {
 	color: black;
@@ -49,7 +48,6 @@ hr#longLine {
 	background-color: black;
 	align-items: center;
 	color: #ffffff;
-	height: 582px;
 }
 .globalImpact {
 	display: flex;
@@ -64,7 +62,7 @@ hr#longLine {
 	width: 380px;
 }
 .whySlush {
-	padding-left: 123px;
+	padding-left: 65px;
 }
 .whySlushHeading {
 	padding-top: 57px;
